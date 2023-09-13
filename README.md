@@ -2,7 +2,7 @@
 # Project Type - Machine Learning - Classification
 # Contribution - Individual
 # Name - - Maneer Ali
-# Project Summary -
+# Project Summary - 
 The mobile phone industry is highly competitive, and the price of a mobile phone is determined by various factors, including battery power, bluetooth, camera quality, screen size and more. In this context, a study was conducted to understand the factors influencing the price range of mobile phones. The study used a dataset containing around 21 variables to predict the price range of mobile phones, categorized as low, medium, high and very high.
 
 The first step in the analysis involved DATA WRANGLING, where missing values were handled and unique values were checked. The study identified 180 phones had pixel resolution height as 0 and two phones had screen width in cm as 0. The minimum value of px_height and sc_w should not be 0, as it does not make sense for a phone screen width or pixel height to be 0. Therefore, the study replaced these 0 values with the mean values, ensuring that no missing values were left in the dataset.
